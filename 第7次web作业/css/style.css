@@ -1,0 +1,43 @@
+body{
+    font-size:12px;
+    color:gray;
+    font-family:Arial;
+    line-height:2em;
+    background-image:url(image/bg.gif);  
+    background-repeat:no-repeat;
+  }
+  a{
+    color:#727272;
+    text-decoration:none; 
+  }
+  a:hover{
+    text-decoration:underline;
+  }
+  .shouye{
+    font-size:14px;
+    color:#b9f605;
+    font-weight:bolder;
+  }
+  .lanmu{
+    color:white;
+  }
+  .lanmu:hover{
+    color:#b9f605;
+    text-decoration:none;
+  }
+  .chaxun{
+    color:#fdb306;
+  }
+  .chaxun:hover{
+    color:#b9f605;
+    text-decoration:none;
+  }
+  li{
+  list-style-type:none;
+}
+.body{
+  background-image:url(image/bg.gif);
+}
+.gray{
+  background-color:#e0e0e0;
+ }

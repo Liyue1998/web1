@@ -1,0 +1,16 @@
+.rongyu{
+    font-size:14px;
+  }
+  .rongyu:hover{
+    color:#b9f605;
+    text-decoration:none;
+  }
+  .ul{
+  	list-style-type:square;
+  }
+  .gaikuang{
+  	background-image:url(image/menulist.gif);
+  }
+ .1{
+  background-repeat:repeat-x;
+ }

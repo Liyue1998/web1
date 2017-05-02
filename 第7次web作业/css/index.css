@@ -1,0 +1,18 @@
+  .new{
+    font-family:微软雅黑;
+    font-size:16px;
+    color:#65a7d0;
+    font-weight:bolder;
+  }
+  .gonggao{
+  	list-style-type:square;
+  }
+ .weibo{
+ 	background-image:url(image/weibo.gif);
+ 	background-repeat:no-repeat;
+ 	background-position:5% 80%;
+ }
+ .mei{
+ 	background-image:url(image/pic_news.gif);
+ 	height:57;
+ }
