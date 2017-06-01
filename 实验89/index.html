@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+	body{
+		font-size: 12px;
+		color: #522a06;
+		padding:0px;
+		font-family: '宋体';
+		background-image: url(images/bodybg.gif);
+	}
+	a{
+		color:#522a06;
+		text-decoration: none;
+	}
+	#header{
+		height:205px;
+		background-image:url(images/bg.gif);
+		background-repeat:no-repeat;
+	}
+	#banner{
+		width:1000px;
+		height:164px;
+		margin-left:150px; 
+	}
+	img.pos_rel{
+		position:relative;
+		left:25px;
+		top:38px;
+	}
+	#nav{
+		height:40px;
+		background-image:url(images/nav.jpg);
+	}
+	#nav_body{
+		height:40px;
+		width:900px;
+		position:center;  
+		float:left;
+	}
+	#nav_content{
+		width:800px;
+		font-weight:400px;
+		color:#fff;
+		text-align:center; 
+		line-height:40px;
+		float:left;
+		margin-left:100px;
+	}
+	#navsearch{
+		width:200px;
+		height:40px;
+		text-align:center;
+	    margin-top:7px;
+	    float:right;
+	    margin-right:145px;
+	    margin-top: 0px;
+	}
+	.kuang{
+		width:140px;
+		height: 19px;
+		float: left;
+		margin-top: 5px;
+	}
+	.sousuo{
+		width: 44px;
+		height: 21px;
+		background-color: #000;
+		color:#fff;
+		border:1px solid #f8f5ee;
+		margin-top: 7px;
+		margin-right: 12px;
+	}
+	#nav_content a{
+		color:#fff;
+	}
+	#nav_content a:hover{
+		color:#f9f603;
+		text-decoration:none; 
+	}
+	#nav_content a:link{
+		text-decoration:none;
+	}
+	
+	#news_pic{
+		margin-top: 20px;
+		width:324px;
+		height:243px;
+		background-image: url(images/news_bg.png);
+		background-repeat: no-repeat;
+		float:left;
+		margin-left:130px;
+	}
+	#pic{
+		margin-left:12px;
+		margin-top:8px;
+		float:top;
+	}
+	#zi{
+		margin-left:60px;
+		position:relative;
+		left:16px;
+		top:10px;	
+	}
+	#news_list{
+		margin-top: 20px;
+		height:243px;
+	    width:380px;
+		margin-left: 19px;
+		float:left;
+		line-height: 30px;
+		background-image:url(images/change.png);
+		background-repeat: no-repeat;
+	}
+	.more{
+		float: right;
+	}
+	.xinwen{
+		padding:10px;
+		padding-bottom: 0px;
+		line-height: 30px;
+		float: left;
+		margin-top: 28px;
+	}
+	.riqi{
+		list-style: none;
+		float: right;
+	}
+	#content{
+		width:1000px;
+		height: 800px;
+		margin: 0px;
+		padding: 0px;
+		clear: right;
+		clear: left;
+	}
+	#content_top{
+		overflow: hidden;
+		width: 1200px;
+	}
+	#news_announce{
+		width:300px;
+		height:243px;
+		margin-top: 20px;
+		float: right;
+		background-image: url(images/board.png);
+		background-repeat: no-repeat;
+		background-position:50% 0%;
+	}
+	.gonggao{
+		background-image: url(images/board_bg.png);
+		background-repeat:no-repeat;
+		margin-top:35px;
+		height:243px;
+		line-height: 30px;
+		padding-left: 15px;
+		float: left;
+	}
+	.academic{
+		width:360px;
+		height:243px;
+		margin-left: 130px;
+		margin-top: 20px;
+		background-image:url(images/academic.png);
+		background-repeat:no-repeat;
+		float: left;
+	}
+	.academic_xinwen{
+		padding-left:10px;
+		padding-bottom: 0px;
+		line-height: 30px;
+		float: left;
+		margin-top: 1px;
+		margin-left: 0px;
+	}
+	.academic_ul{
+		width: 270px;
+		padding-left: 0px;
+		margin-top: 30px;
+		float: left;
+	}
+	.academic_riqi{
+		width: 75x;
+		padding-left: 0px;
+		list-style: none;
+		float: right;
+		margin-top: 30px;
+	}
+	.book_news{
+		width: 345px;
+		height: 243px;
+		margin-left: 25px;
+		margin-top: 20px;
+		background-image: url(images/book_news.png);
+		background-repeat: no-repeat;
+		float: left;
+	}
+	.book_news_ul{
+		width: 270px;
+		line-height: 30px;
+		margin-top: 55px;
+		padding-left: 0px;
+		float: left;
+	}
+	.book_news_riqi{
+		width: 75px;
+		padding-left: 0px;
+		line-height: 30px;
+		margin-top: 24px;
+		margin-left: 0px;
+		list-style: none;
+		float: right;
+	}
+	.fengcai{
+		width:700px;
+		height: 260px;
+		clear:none;
+		float: left;
+		background-image:url(images/fengcai_bg1.png);
+		background-repeat: no-repeat;
+		margin-left: 130px;
+	}
+	.fengcai_small{
+		width: 655px;
+		height: 136px;
+		border-right: 0px;
+		padding: 20px;
+		margin-top: 54px;
+		background-image: url(images/fengcai_bg2.png);
+		background-repeat: no-repeat;
+	}
+	.fengcai_ul{
+		list-style: none;
+		display: inline;
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+	.fengcai_li{
+		float: left;
+		display: block;
+		padding-left: 5px;
+	}
+	#content_bottom_right{
+		width:362px;
+		height: 470px;
+		border:1px solid #f8f5ee;
+		clear: both;
+		position: relative;
+		left: 880px;
+		bottom:470px;
+		background-image: url(images/show.png);
+		background-repeat: no-repeat;
+		background-position: 50% 0%;
+	}
+	.mingjia{
+		width: 280px;
+		height:400px;
+		
+		margin-top: 55px;
+		margin-left: 30px;
+		background-image:url(images/show_bg.png);
+		background-repeat: no-repeat;
+	}
+	.mingjia1{
+		margin-left: 27px;
+		margin-top:10px; 
+	}
+	.jieshao{
+		width: 224px;
+		height: 155px;
+		float: right;
+		margin-right: 23px;
+		
+	}
+	.p{
+		line-height: 25px;
+		margin-bottom: 0px;
+	}
+	.more1{
+		float: right;
+		margin-right: 3px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	#footer{
+		width:1100px;
+		height: 105px;
+		margin-left:130px;
+		float: left;
+		background-image: url(images/foot.gif);
+		background-repeat: no-repeat;
+	}
+	.link{
+		width: 1000px;
+		height: 100px;
+		float: left;
+		margin-top: 0px;
+		margin-left: 45px;
+	}
+	.footer_ul{
+		list-style: none;
+		margin-left: 150px;
+	}
+	.footer_li{
+		display: inline;
+		float: left;
+	}
+	.line{
+		margin-left: 230px;
+	}
+	.end{
+		text-align: center;
+	}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div id="header">
+		<div id="banner">
+			<img class="pos_rel" src="images/logo.png"/>
+		</div>
+		<div id="nav">
+			<div id="nav_body">
+				<div id="nav_content">
+					<a href="#"><font color="#f9f603">首页</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#">中心概况</a>&nbsp;&nbsp;|
+					<a href="#">培训动态</a>&nbsp;&nbsp;|
+					<a href="#">学术争鸣</a>&nbsp;&nbsp;|
+					<a href="#">书坛新闻</a>&nbsp;&nbsp;|
+					<a href="#">名家展厅</a>&nbsp;&nbsp;|
+                    <a href="#">燕赵风采</a>&nbsp;&nbsp;|
+                    <a href="#">经典解读与示范</a>&nbsp;&nbsp;
+                    <a href="#">谏言互动</a>
+                </div>
+			</div>
+			<div id="navsearch">
+				<div>
+					<input class="kuang" type="text"/>
+					<input class="sousuo" type="button" value="搜索"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div id="content_top">
+			<div id="news_pic">
+				<div id="pic">
+					<img src="images/news.jpg" align="center"/>
+				</div>
+				<div id="zi">
+					“曲径通幽”书写人生传奇
+				</div>
+			</div>
+			<div id="news_list">
+				<a href="#"><img class="more" src="images/more.png"/></a>
+			    <ul class="xinwen">
+			    	<li><a href="#">臻·妙— —谢云、苏士澎在北京雍......</a></li>
+				    <li><a href="#">“守望相助·尽责圆梦”中国书法家协会创作活...</a></li>
+				    <li><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
+				    <li><a href="#">“中国书法之乡”命名授权仪式在河南省郏县举行</a></li>
+				    <li><a href="#">中国文字博物馆馆藏书画精品暨中国字</a></li>
+				    <li><a href="#">第一届兰亭学校师生书法作品展获奖、入展名单</a></li>
+				    <li><a href="#">第25届中日友好自作诗书交流展</a></li>
+			    </ul>
+			    <ul class="riqi">
+			    	<li>[04-25]</li>
+			    	<li>[04-25]</li>
+			    	<li>[04-25]</li>
+			    	<li>[04-25]</li>
+			    	<li>[04-25]</li>
+			    	<li>[04-25]</li>
+			    	<li>[04-25]</li>
+			    </ul>
+			</div>
+			<div id="news_announce">
+				<ul class="gonggao">
+					<li><a href="#">臻·妙— —谢云、苏士澎在北京雍......</a></li>
+					<li><a href="#">“守望相助·尽责圆梦”中国书法家协会创作活..</a></li>
+					<li><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
+					<li><a href="#">“中国书法之乡”命名授权仪式在河南省郏县举行</a></li>
+					<li><a href="#">中国文字博物馆馆藏书画精品暨中国字</a></li>
+					<li><a href="#">第25届中日友好自作诗书交流展</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content_bottom_left">
+			<div class="academic">
+				<a href="#"><img class="more" src="images/more.png"/></a>
+				<div class="academic_xinwen">
+					<ul class="academic_ul">
+						<li><a href="#">臻·妙— —谢云、苏士澎在北京雍......</a></li>
+						<li><a href="#">“守望相助·尽责圆梦”中国书法家协会创作活...</a></li>
+						<li><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
+						<li><a href="#">“中国书法之乡”命名授权仪式在河南省郏县举行</a></li>
+						<li><a href="#">中国文字博物馆馆藏书画精品暨中国字</a></li>
+					</ul>
+					<ul class="academic_riqi">
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+					</ul>
+				</div>
+			</div>
+			<div class="book_news">
+				<div class="book_news_xinwen">
+					<a href="#"><img class="more" src="images/more.png"/></a>
+					<ul class="book_news_ul">
+						<li><a href="#">臻·妙— —谢云、苏士澎在北京雍......</a></li>
+						<li><a href="#">“守望相助·尽责圆梦”中国书法家协会创作活...</a></li>
+						<li><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
+						<li><a href="#">“中国书法之乡”命名授权仪式在河南省郏县举行</a></li>
+						<li><a href="#">中国文字博物馆馆藏书画精品暨中国字</a></li>
+					</ul>
+					<ul class="book_news_riqi">
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+						<li>[2015-04-25]</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fengcai">
+				<a href="#"><img class="more" src="images/more.png"/></a>
+				<div class="fengcai_small">
+					<ul class="fengcai_ul">
+						<li class="fengcai_li"><img src="images/fengcai1.jpg"></li>
+						<li class="fengcai_li"><img src="images/fengcai2.jpg"></li>
+						<li class="fengcai_li"><img src="images/fengcai3.jpg"></li>
+						<li class="fengcai_li"><img src="images/fengcai4.jpg"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="content_bottom_right">
+			<div class="mingjia">
+				<img class="mingjia1" src="images/mingjia.jpg"/>
+				<div class="jieshao">
+				    <p class="p">
+					    <font color="red">欧阳中石</font>，山东省肥城市人，著名文化学者、书法家、书法教育家。早年拜在京剧大师奚啸伯的门下。现任首都师范大学教授、博士生导师、中国书法文化研究所所长，北京唐风美术馆名誉馆长。
+				    </p>
+				    <img class="more1" src="images/view.png"/>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="link">
+			<ul class="footer_ul">
+				<li class="footer_li"><a href="#">&nbsp;&nbsp;电子信箱</a>&nbsp;&nbsp;|</li>
+				<li class="footer_li"><a href="#">&nbsp;&nbsp;设为首页</a>&nbsp;&nbsp;|</li>
+				<li class="footer_li"><a href="#">&nbsp;&nbsp;在线调查</a>&nbsp;&nbsp;|</li>
+				<li class="footer_li"><a href="#">&nbsp;&nbsp;加入收藏</a>&nbsp;&nbsp;|</li>
+				<li class="footer_li"><a href="#">&nbsp;&nbsp;网站地图</a>&nbsp;&nbsp;|</li>
+				<li class="footer_li"><a href="#">&nbsp;&nbsp;关于我们</a></li>
+			</ul>
+			<img class="line" src="images/line.jpg"/>
+			<p class="end"> 
+				Copyright#2013-2014 Hebshufajia.com,All Right Reserved</br>
+				冀ICP备05067795号 冀公网安备1104024440008号
+			</p>
+		</div>
+	</div>
+</body>
+</html>
