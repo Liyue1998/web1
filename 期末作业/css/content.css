@@ -1,0 +1,170 @@
+#content{
+	height: 950px;
+	width: 1200px;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+.mianbao{
+	height: 30px;
+	width: 1100px;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.contentz{
+	height: 900px;
+	width: 1190px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.contentz_left{
+	height: 880px;
+	width: 650px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.contentz_right{
+	height: 880px;
+	width: 460px;
+	float: left;
+	margin-left:35px;
+	margin-top: 5px;
+}
+.zhongti{
+	text-align: center;
+}
+.newscontent{
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+.xiangce{
+	position: relative;
+	top:284px;
+	left:460px;
+}
+.zhang{
+	text-decoration: none;
+	color: #930000;
+}
+.zhang:hover{
+	text-decoration: underline;
+	color: green;
+}
+.pinglun{
+	text-align: center;
+	position: relative;
+	left: 25px;
+}
+.submit{
+	position: relative;
+	bottom: 10px;
+	right: 40px;
+}
+.quyu{
+	height: 600px;
+	width: 400px;
+	margin-top: 10px;
+	margin-left:30px;
+}
+.back{
+	height: 30px;
+	width: 398px;
+	background-color: #01b468;
+}
+.zuxie{
+	width: 100px;
+	margin-top: 4px;
+	margin-left: 5px;
+	font-size: 17px;
+	color: white;
+	float: left;
+}
+.more0{
+	width:100px; 
+	float: left;
+	position: relative;
+	bottom:10px;
+	left: 220px;
+	text-decoration: none;
+	color: white;
+}
+.more01{
+	color: white;
+	text-decoration:none;
+}
+.more0:hover{
+	text-decoration: underline;
+}
+.quyu_li{
+	text-decoration: none;
+	color: #7b7b7b;
+}
+.quyu_li:hover{
+	color: green;
+}
+.back1{
+	height: 30px;
+	width: 398px;
+	margin-top: 5px;
+	margin-left:0px;
+	background-color: #01b468;
+}
+.huodong{
+	width: 100px;
+	margin-top: 4px;
+	margin-left: 5px;
+	font-size: 17px;
+	color: white;
+	float: left;
+}
+.big{
+	height: 238px;
+	width: 393px;
+	margin-left: 1px;
+	margin-top: 2px;
+	padding-top: 2px;
+}
+.left{
+	clear: both;
+	height: 120px;
+	width:130px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.right{
+	height: 120px;
+	width: 180px;
+	float: left;
+	margin-left: 10px;
+}
+.page{
+	height: 50px;
+	width: 380px;
+	margin-top: 180px;
+	margin-left: 5px;
+}
+.page_one{
+	margin-top: 2px;
+	margin-left: 5px;
+}
+.shang{
+	text-decoration: none;
+	color: #930000;
+}
+.shang:hover{
+	text-decoration:underline;
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
