@@ -1,0 +1,83 @@
+#header{
+	height: 265px;
+	width:1200px;
+	background-image: url(images/);
+	text-align: center;
+	margin-left: 75px;
+}
+.nav{
+	height: 40px;
+	width: 1168px;
+	margin-left: 8px;
+	background-color: #e0e0e0;
+}
+.banner{
+	height: 215px;
+	width: 1180px;
+	margin-top: 3px;
+	margin-left: 8px;
+}
+.nav_content{
+	height:38px;
+	width: 800px;
+	float: left;
+	margin-left: 10px;
+	margin-top:5px; 
+}
+.nav_search{
+	height:38px;
+	width: 350px;
+	float: left;
+	margin-left: 0px;
+}
+.sousuo{
+	background-color: black;
+	color: white;
+	margin-top: 6px;
+}
+.denglu{
+	background-color: #d0d0d0;
+	color:#ff2d2d;
+	font-weight: bold;
+	margin-top: 8px;
+}
+.nav_content a{
+	color: #ce0000;
+	text-decoration: none;
+	font-size: 18px;
+}
+.color:hover{
+	color:green;
+}
+
+.link{
+	height: 170px;
+	width: 950px;
+	margin-left:125px;
+	margin-top: 10px;
+	padding-top: 90px;
+}
+.footer_ul{
+	list-style: none;
+	margin-left: 165px;
+}
+.footer_li{
+	color:white;
+	text-decoration: none;
+	display: inline;
+	float: left;
+}
+.footer_li a{
+	color: white;
+	text-decoration: none;
+}
+.footer_li a:hover{
+	color: red;
+}
+.line{
+	margin-left: 200px;
+}
+.end{
+	text-align: center;
+	color: white;
+}
